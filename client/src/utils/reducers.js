@@ -11,7 +11,15 @@ import {
   TOGGLE_CART
 } from "./actions";
 
-export const reducer = (state, action) => {
+const reduxState = {
+  products: [],
+  cart: [],
+  cartOpen: false,
+  categores: [],
+  currentCategory: ''
+}
+
+export const reducer = (state = reduxState, action) => {
   switch (action.type) {
     case UPDATE_PRODUCTS:
       return {
