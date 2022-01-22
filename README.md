@@ -1,19 +1,20 @@
 # eCommerce Redux Store
 
-
 ## Table of Contents
-* [Description](#description)
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description
 
 This project simulates a redux store for managing global state.
+
+![Screenshot of Application](./client/public/images/main-page.png)
 
 ## Installation
 
@@ -24,8 +25,8 @@ Running "npm install" from the root directory will install the client and server
 This app allows you to browse items in an eCommerce-like front end, then create a cart and checkout.
 
 ## License
-This project is covered under the Unliscensed license: 
 
+This project is covered under the Unliscensed license:
 
 ## Contributing
 
