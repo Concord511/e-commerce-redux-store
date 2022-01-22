@@ -1,4 +1,3 @@
-import { useReducer } from "react";
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -15,9 +14,9 @@ const reduxState = {
   products: [],
   cart: [],
   cartOpen: false,
-  categores: [],
+  categories: [],
   currentCategory: ''
-}
+};
 
 export const reducer = (state = reduxState, action) => {
   switch (action.type) {
