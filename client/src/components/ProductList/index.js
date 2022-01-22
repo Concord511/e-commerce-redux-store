@@ -9,8 +9,7 @@ import spinner from '../../assets/spinner.gif';
 
 function ProductList() {
   const dispatch = useDispatch();
-  const selectState = state => state;
-  const state = useSelector(selectState);
+  const state = useSelector(state => state);
   const { currentCategory } = state;
   const { loading, data } = useQuery(QUERY_PRODUCTS);
 

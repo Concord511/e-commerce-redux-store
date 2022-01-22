@@ -16,8 +16,7 @@ import spinner from '../assets/spinner.gif';
 
 function Detail() {
   const dispatch = useDispatch();
-  const selectState = state => state;
-  const state = useSelector(selectState);
+  const state = useSelector(state => state);
   const { id } = useParams();
   const [currentProduct, setCurrentProduct] = useState({});
   const { loading, data } = useQuery(QUERY_PRODUCTS);
